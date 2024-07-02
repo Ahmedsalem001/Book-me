@@ -10,7 +10,7 @@ const app = express();
 
 app.use("/uploads", express.static(path.join(__dirname, 'uploads')));
 
-const port = 3000;
+const port = 3001;
 
 const mongoose = require('mongoose');
 

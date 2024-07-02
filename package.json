@@ -1,9 +1,12 @@
 {
-  "name": "http",
+  "name": "book-me",
   "version": "1.0.0",
   "main": "index.js",
+  "engines": {
+    "node": ">=14.x"
+  },
   "scripts": {
-    "dev": "nodemon index.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
